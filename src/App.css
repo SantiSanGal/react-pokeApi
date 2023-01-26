@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+.pokeCard{
+    padding: 1rem;
+    background-color: orange;
+    border-radius: 10px;
+    width: 70vh;
+    margin: 0 auto;
+    transition: transform 200ms ease;
+}
+
+.pokeCard:hover{
+    transform: scale(1.05);
+}
+
+.pokeCard__Name{
+    text-transform: capitalize;
+}
+
+.pokeCard__Data{
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 1rem;
+    list-style: none;
+}
+
+input, button{
+    font-size: 15px;
+}
